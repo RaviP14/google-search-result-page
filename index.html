@@ -8,7 +8,7 @@
         <li><img src="./resources/googlelogo_color_92x30dp.png" alt="Google Logo" width="92" height="32"></li>
         <li>
             <form>
-                <input type="text" name="text" class="search">
+                <input type="text" name="text" class="search" placeholder="what is the moon">
                 <button type="submit">Search</button> <!-- replace with icon, will have one rounded side  -->
             </form>
         </li>
@@ -33,8 +33,16 @@
 </head>
 
 <body>
-    <ul>
-        <li><p>website link</p><a href="result-1.asp">Fill with words</a><p>heres a link to a website</p></li>
+    <p>About 169,000,000 results (0.61 seconds) </p>
+    <ul class="search-links">
+        <li><p>https://en.wikipedia.org > wiki > Moon</p>
+            <a href="result-1.asp">Moon - Wikipedia</a>
+            <p>The Moon is Earth's only proper natural satellite. At one-quarter the diameter of Earth it is the largest natural satellite in the Solar System relative to the size of its ...
+            Satellite of: Earth
+            Mass: 7.342×1022 kg; (0.012300 of Earth's)
+            Surface area: 3.793×107 km2; (0.074 of Earth's)
+            Average orbital speed: 1.022 km/s</p>
+        </li>
         <li><a></a><p></p></li>
         <li><a></a><p></p></li>
         <li><a></a><p></p></li>
@@ -43,14 +51,16 @@
 </body>
 
 <footer>
-    <ul class="location">
-        <li><p>Jupiter</p></li>
-    </ul>
-    <ul>
-        <li><a href="help.asp">Help</a></li>
-        <li><a href="send-feedback.asp">Send Feedback</a></li>
-        <li><a href="privacy.asp">Privacy</a></li>
-        <li><a href="terms.asp">Terms</a></li>
-    </ul>
+    <div class="footer-all">
+        <ul class="location">
+            <li><p>Jupiter</p></li>
+        </ul>
+        <ul class="footer-nav">
+            <li><a href="help.asp">Help</a></li>
+            <li><a href="send-feedback.asp">Send Feedback</a></li>
+            <li><a href="privacy.asp">Privacy</a></li>
+            <li><a href="terms.asp">Terms</a></li>
+        </ul>
+    </div>
 </footer>
 </html>
