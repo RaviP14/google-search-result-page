@@ -42,6 +42,7 @@ nav.header-search {
     padding-left: 1em;
     padding-bottom: 1em;
     text-decoration: none;
+    font-size: 20px !important;
 }
 
 .left-side-head {
@@ -54,17 +55,22 @@ nav.header-search {
 
 .header-nav {
     display: flex;
+    font-size: 14px !important;
 }
 /*Body*/
-.search-links{
+.search-links {
     display: flex;
     flex-direction: column;
 }
+.pages {
+    display: flex;
+}
+
 /*Footer*/
 .footer-all {
-    position: fixed;
+    /*position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     width: 100%;
 }
 
