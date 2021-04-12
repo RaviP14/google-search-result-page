@@ -7,7 +7,7 @@
     <ul class="left-side-head">
         <li><img src="./resources/googlelogo_color_92x30dp.png" alt="Google Logo" width="92" height="32"></li>
         <li>
-            <form>
+            <form class="full-search">
                 <input type="text" name="text" class="search" placeholder="What is the moon?">
                 <button class="search-b"type="submit"><ion-icon name="search"></ion-icon></button> <!-- replace with icon, will have one rounded side  -->
             </form>
@@ -20,14 +20,14 @@
 </nav>
 <nav>
     <ul class="header-nav">
-        <li><a href="all.asp"><ion-icon name="search-outline"></ion-icon> All</a></li>
+        <li><a href="all.asp" id="all-link"><ion-icon name="search-outline"></ion-icon> All</a></li>
         <li><a href="news.asp"><ion-icon name="newspaper-outline"></ion-icon> News</a></li>
         <li><a href="maps.asp"><ion-icon name="location-outline"></ion-icon> Maps</a></li>
         <li><a href=videos.asp><ion-icon name="logo-youtube"></ion-icon> Videos</a></li>
         <li><a href="shopping.asp"><ion-icon name="pricetag-outline"></ion-icon> Shopping</a></li>
         <li><a href="more.asp"><ion-icon name="ellipsis-vertical"></ion-icon> More</a></li>
         <li><a href="settings.asp">Settings</a></li>
-        <li><a href="tools.asp">Tools</a></li>
+        <li><button type="submit">Tools</button></li>
     </ul>
 </nav>
 </head>
@@ -107,7 +107,7 @@
 <footer>
     <div class="footer-all">
         <ul class="location">
-            <li><p>Jupiter</p></li>
+            <li><p>Jupiter, Solar System</p></li>
         </ul>
         <ul class="footer-nav">
             <li><a href="help.asp">Help</a></li>
