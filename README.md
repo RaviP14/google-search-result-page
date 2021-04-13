@@ -5,4 +5,4 @@ Below are screenshots of the outcome.
 <img src="./resources/search-page-top-screenshot.png">
 <img src="./resources/search-page-bottom-screenshot.png">
 <br />
-The liver preview of this page is <a href="">here</a>.
+The live preview of this page is <a href="https://ravip14.github.io/google-search-result-page/">here</a>.
