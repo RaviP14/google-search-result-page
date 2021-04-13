@@ -75,12 +75,18 @@ nav.header-search {
 }
 
 input[type="search"] {
+    float: right;
     outline: none !important;
     border: 1px solid lightgray;
-    border-right: 0px;
-    border-radius: 20px 0px 0px 20px;
-    width: 48em;
+    border-radius: 20px 20px 20px 20px;
+    width: 50em;
     height: 3.3em;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAw0lEQVQ4ja3Qv0qCYRiG8Z+6BElWQ7gELW2BRnYACQ2BCB2CLjU1BIL4BychcUkQcRKPqCNqcFCk4f2+9wu9x+d67+t5eEnODYopPDFvWOMTC4xQyVI8wQp3yP2Zl9DDY0www3kK76KWBJt4jiwoYJwEO7anxzJBOQSGOMsgaKEaAh94yCD4xkUI1PEaKV+in/agh6cUvsB1ZIkOGri1/fUr3GOJH7zHBPCCAb4wRRunu/JvVgnkA7N/S0I5mmR+iGCfDWHhGLbAUSByAAAAAElFTkSuQmCC) no-repeat scroll 47em 0.9em;
+    box-shadow: 0px 0px 3px #6a6a6a;
+}
+
+input[type="search"]:hover {
+    box-shadow: 0px 0px 6px #6a6a6a;
 }
 
 .right-side-head{
@@ -111,7 +117,7 @@ input[type="search"] {
     height: 2.6em;
     box-shadow: 1px 0 rgba(0,0,0,.15);
     position: relative;
-    bottom: 0.5em;
+    bottom: 0.5em; 
 }
 
 .right-side-head button:hover {
