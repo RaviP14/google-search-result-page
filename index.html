@@ -1,136 +1,143 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-<link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-<nav class="header-search">
-    <ul class="left-side-head">
-        <li><img src="./resources/googlelogo_color_92x30dp.png" alt="Google Logo" width="92" height="32"></li>
-        <li>
-            <form class="full-search">
-                <input type="text" name="text" class="search" placeholder="What is the moon?">
-                <button class="search-b"type="submit"><ion-icon name="search"></ion-icon></button> <!-- replace with icon, will have one rounded side  -->
-            </form>
-        </li>
-    </ul>
-    <ul class="right-side-head">
-        <li><a class="icon" href="google-apps.aps"><ion-icon name="apps"></ion-icon></a></li> <!--change to icon-->
-        <li><button type="submit">Sign In</button></li>
-    </ul>
-</nav>
-<nav>
-    <ul class="header-nav">
-        <li><a href="all.asp" id="all-link"><ion-icon name="search-outline"></ion-icon> All</a></li>
-        <li><a href="news.asp"><ion-icon name="newspaper-outline"></ion-icon> News</a></li>
-        <li><a href="maps.asp"><ion-icon name="location-outline"></ion-icon> Maps</a></li>
-        <li><a href=videos.asp><ion-icon name="logo-youtube"></ion-icon> Videos</a></li>
-        <li><a href="shopping.asp"><ion-icon name="pricetag-outline"></ion-icon> Shopping</a></li>
-        <li><a href="more.asp"><ion-icon name="ellipsis-vertical"></ion-icon> More</a></li>
-        <li><a href="settings.asp">Settings</a></li>
-        <li><button type="submit">Tools</button></li>
-    </ul>
-</nav>
-</head>
-
-<body>
-    <p id="search-speed">About 169,000,000 results (0.61 seconds) </p>
-    <ul class="search-links">
-        <li><p>https://en.wikipedia.org > wiki > Moon</p>
-            <a href="result-1.asp">Moon - Wikipedia</a>
-            <p>The Moon is Earth's only proper natural satellite. At one-quarter the diameter of Earth it is the largest natural satellite in the Solar System relative to the size of its ...
-            Satellite of: Earth
-            Mass: 7.342×1022 kg; (0.012300 of Earth's)
-            Surface area: 3.793×107 km2; (0.074 of Earth's)
-            Average orbital speed: 1.022 km/s</p>
-        </li>
-        <li>
-            <p>https://solarsystem.nasa.gov > moons > earths-moon > overview</p>
-            <a href="result-2.asp">Overview | Earth's Moon – NASA Solar System Exploration</a>
-            <p>15 Feb 2021 — The Moon is Earth's only natural satellite and the fifth largest moon in the solar system. The Moon's presence helps stabilize our planet's wobble, which helps stabilize our climate. The Moon's distance from Earth is about 240,000 miles (385,000km). The Moon has a very thin atmosphere called an exosphere.</p>
-        </li>
-        <li>
-            <p>https://spaceplace.nasa.gov > all-about-the-moon</p>
-            <a href="result-3.asp">All About the Moon | NASA Space Place – NASA Science for ...</a>
-            <p>Quick Facts: Earth has just one moon – a rocky, cratered place, roughly a quarter the size of Earth and an average of 238,855 miles away. The ...</p>
-        </li>
-        <li>
-            <p>https://www.space.com > 55-earths-moon-formation-co...</p>
-            <a href="result-4.asp">Moon Facts: Fun Information About the Earth's Moon | Space</a>
-            <p>8 Sept 2017 — Moon Facts: Fun Information About the Earth's Moon ... The moon is the easiest celestial object to find in the night sky — when it's there. Earth's ...</p>
-        </li>
-        <li>
-            <p>https://www.universetoday.com/60072 > what-is-a-moon</p>
-            <a href="result-5.asp">What Is A Moon? - Universe Today</a>
-            <p>19 Mar 2010 — A moon is defined to be a celestial body that makes an orbit around a planet, including the eight major planets, dwarf planets, and minor ...</p>
-        </li>
-        <li>
-            <p>https://www.sciencealert.com > moon</p>
-            <a href="result-6.asp">What Is The Moon? - ScienceAlert</a>
-            <p>What Is The Moon? ... The Moon is Earth's only natural satellite, circling the planet at an average distance of roughly 385,000 kilometers (239,000 miles). With a ...
-                Orbits: Earth</p>
-        </li>
-        <li>
-            <p>https://www.nhm.ac.uk > discover > factfile-the-moon</p>
-            <a href="result-7.asp">The Moon | Natural History Museum</a>
-            <p>The Moon is a little over a quarter the size of the Earth, with a circumference of 10,917 kilometres around the equator and a radius (the distance from the core of the ...</p>
-        </li>
-        <li><p>https://www.moongiant.com > phase > today</p>
-            <a href="result-8.asp">Moon Phase on - MoonGiant</a>
-            <p>Moon Phase for today and tonight with current lunar phase, illumination percentage and Moons age. Find out what the Moon Phase is on any other day of the ...</p>
-        </li>
-        <li>
-            <p>https://www.rmg.co.uk > stories > topics > interesting-fa...</p>
-            <a href="result-9.asp">Interesting facts about the Moon | Royal Museums Greenwich</a>
-            <p>1. The Moon is Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative ...</p>
-        </li>
-        <li>
-            <p>https://www.nationalgeographic.org > encyclopedia > m...</p>
-            <a href="result-10.asp">moon | National Geographic Society</a>
-            <p>A moon is an object that orbits a planet or something else that is not a star. Besides planets, moons can circle dwarf planets, large asteroids, and other bodies.</p>
-        </li>
-    </ul>
-    <p id="rel-search">Related searches</p>
-    <div class="extra-searches">
-        <ul class="search-more1">
-            <li><a href="r-1.asp"><ion-icon name="search-outline"></ion-icon> what is the moon for kids</a></li>
-            <li><a href="r-2.asp"><ion-icon name="search-outline"></ion-icon> is the moon a star</a></li>
-            <li><a href="r-3.asp"><ion-icon name="search-outline"></ion-icon> is the moon a planet</a></li>
-            <li><a href="r-4.asp"><ion-icon name="search-outline"></ion-icon> facts about the moon</a></li>
+    <head>
+        <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+        <nav class="header-search">
+            <ul class="left-side-head">
+                <li><img src="./resources/googlelogo_color_92x30dp.png" alt="Google Logo" width="92" height="32"></li>
+                <li>
+                    <form class="full-search">
+                        <input type="search" name="text" class="search" title="Search" value="What is the moon?">
+                        <button class="search-b" type="submit"><ion-icon name="search"></ion-icon></button> <!-- replace with icon, will have one rounded side  -->
+                    </form>
+                </li>
+            </ul>
+            <ul class="right-side-head">
+                <li><a class="icon" href="google-apps.aps"><ion-icon name="apps"></ion-icon></a></li> <!--change to icon-->
+                <li><button type="submit">Sign In</button></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="header-nav">
+                <li><a href="all.asp" id="all-link"><ion-icon name="search-outline"></ion-icon> All</a></li>
+                <li><a href="news.asp"><ion-icon name="newspaper-outline"></ion-icon> News</a></li>
+                <li><a href="maps.asp"><ion-icon name="location-outline"></ion-icon> Maps</a></li>
+                <li><a href=videos.asp><ion-icon name="logo-youtube"></ion-icon> Videos</a></li>
+                <li><a href="shopping.asp"><ion-icon name="pricetag-outline"></ion-icon> Shopping</a></li>
+                <li><a href="more.asp"><ion-icon name="ellipsis-vertical"></ion-icon> More</a></li>
+                <li><a href="settings.asp">Settings</a></li>
+                <li><button type="submit">Tools</button></li>
+            </ul>
+        </nav>
+    </head>
+    <body>
+        <p id="search-speed">About 169,000,000 results (0.61 seconds) </p>
+        <ul class="search-links">
+            <li><p>https://en.wikipedia.org > wiki > Moon</p>
+                <a href="result-1.asp">Moon - Wikipedia</a>
+                <p>The Moon is Earth's only proper natural satellite. At one-quarter the diameter of Earth it is the largest natural satellite in the Solar System relative to the size of its ...
+                Satellite of: Earth
+                Mass: 7.342×1022 kg; (0.012300 of Earth's)
+                Surface area: 3.793×107 km2; (0.074 of Earth's)
+                Average orbital speed: 1.022 km/s</p>
+            </li>
+            <li>
+                <table class="more-searches">
+                    <tr><td><h2>People also ask</h2></td></tr>
+                    <tr><td>What is the moon exactly? <td><ion-icon name="chevron-down-outline"></td></ion-icon></td></tr>
+                    <tr><td>Is the moon a planet or star? <td><ion-icon name="chevron-down-outline"></td></ion-icon></td></tr>
+                    <tr><td>What is the moon made of? <td><ion-icon name="chevron-down-outline"></td></ion-icon></td></tr>
+                    <tr><td>What is Moon Short answer? <td><ion-icon name="chevron-down-outline"></td></ion-icon></td></tr>
+                </table>
+            </li>
+            <li>
+                <p>https://solarsystem.nasa.gov > moons > earths-moon > overview</p>
+                <a href="result-2.asp">Overview | Earth's Moon – NASA Solar System Exploration</a>
+                <p>15 Feb 2021 — The Moon is Earth's only natural satellite and the fifth largest moon in the solar system. The Moon's presence helps stabilize our planet's wobble, which helps stabilize our climate. The Moon's distance from Earth is about 240,000 miles (385,000km). The Moon has a very thin atmosphere called an exosphere.</p>
+            </li>
+            <li>
+                <p>https://spaceplace.nasa.gov > all-about-the-moon</p>
+                <a href="result-3.asp">All About the Moon | NASA Space Place – NASA Science for ...</a>
+                <p>Quick Facts: Earth has just one moon – a rocky, cratered place, roughly a quarter the size of Earth and an average of 238,855 miles away. The ...</p>
+            </li>
+            <li>
+                <p>https://www.space.com > 55-earths-moon-formation-co...</p>
+                <a href="result-4.asp">Moon Facts: Fun Information About the Earth's Moon | Space</a>
+                <p>8 Sept 2017 — Moon Facts: Fun Information About the Earth's Moon ... The moon is the easiest celestial object to find in the night sky — when it's there. Earth's ...</p>
+            </li>
+            <li>
+                <p>https://www.universetoday.com/60072 > what-is-a-moon</p>
+                <a href="result-5.asp">What Is A Moon? - Universe Today</a>
+                <p>19 Mar 2010 — A moon is defined to be a celestial body that makes an orbit around a planet, including the eight major planets, dwarf planets, and minor ...</p>
+            </li>
+            <li>
+                <p>https://www.sciencealert.com > moon</p>
+                <a href="result-6.asp">What Is The Moon? - ScienceAlert</a>
+                <p>What Is The Moon? ... The Moon is Earth's only natural satellite, circling the planet at an average distance of roughly 385,000 kilometers (239,000 miles). With a ...
+                    Orbits: Earth</p>
+            </li>
+            <li>
+                <p>https://www.nhm.ac.uk > discover > factfile-the-moon</p>
+                <a href="result-7.asp">The Moon | Natural History Museum</a>
+                <p>The Moon is a little over a quarter the size of the Earth, with a circumference of 10,917 kilometres around the equator and a radius (the distance from the core of the ...</p>
+            </li>
+            <li><p>https://www.moongiant.com > phase > today</p>
+                <a href="result-8.asp">Moon Phase on - MoonGiant</a>
+                <p>Moon Phase for today and tonight with current lunar phase, illumination percentage and Moons age. Find out what the Moon Phase is on any other day of the ...</p>
+            </li>
+            <li>
+                <p>https://www.rmg.co.uk > stories > topics > interesting-fa...</p>
+                <a href="result-9.asp">Interesting facts about the Moon | Royal Museums Greenwich</a>
+                <p>1. The Moon is Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative ...</p>
+            </li>
+            <li>
+                <p>https://www.nationalgeographic.org > encyclopedia > m...</p>
+                <a href="result-10.asp">moon | National Geographic Society</a>
+                <p>A moon is an object that orbits a planet or something else that is not a star. Besides planets, moons can circle dwarf planets, large asteroids, and other bodies.</p>
+            </li>
         </ul>
-        <ul class="search-more2">
-            <li><a href="r-5.asp"><ion-icon name="search-outline"></ion-icon> moon meaning</a></li>
-            <li><a href="r-6.asp"><ion-icon name="search-outline"></ion-icon> how old is the moon</a></li>
-            <li><a href="r-7.asp"><ion-icon name="search-outline"></ion-icon> how far is the moon from earth</a></li>
-            <li><a href="r-8.asp"><ion-icon name="search-outline"></ion-icon> what is the moon made of</a></li>
+        <p id="rel-search">Related searches</p>
+        <div class="extra-searches">
+            <ul class="search-more1">
+                <li><a href="r-1.asp"><ion-icon name="search-outline"></ion-icon> what is the moon for kids</a></li>
+                <li><a href="r-2.asp"><ion-icon name="search-outline"></ion-icon> is the moon a star</a></li>
+                <li><a href="r-3.asp"><ion-icon name="search-outline"></ion-icon> is the moon a planet</a></li>
+                <li><a href="r-4.asp"><ion-icon name="search-outline"></ion-icon> facts about the moon</a></li>
+            </ul>
+            <ul class="search-more2">
+                <li><a href="r-5.asp"><ion-icon name="search-outline"></ion-icon> moon meaning</a></li>
+                <li><a href="r-6.asp"><ion-icon name="search-outline"></ion-icon> how old is the moon</a></li>
+                <li><a href="r-7.asp"><ion-icon name="search-outline"></ion-icon> how far is the moon from earth</a></li>
+                <li><a href="r-8.asp"><ion-icon name="search-outline"></ion-icon> what is the moon made of</a></li>
+            </ul>
+        </div>
+        <ul class="pages">
+            <li><a href="page-1.asp">1</a></li>
+            <li><a href="page-2.asp">2</a></li>
+            <li><a href="page-3.asp">3</a></li>
+            <li><a href="page-4.asp">4</a></li>
+            <li><a href="page-5.asp">5</a></li>
+            <li><a href="page-6.asp">6</a></li>
+            <li><a href="page-7.asp">7</a></li>
+            <li><a href="page-8.asp">8</a></li>
+            <li><a href="page-9.asp">9</a></li>
+            <li><a href="page-10.asp">10</a></li>
+            <li><a href="page-11.asp">Next</a></li>
         </ul>
-    </div>
-    <ul class="pages">
-        <li><a href="page-1.asp">1</a></li>
-        <li><a href="page-2.asp">2</a></li>
-        <li><a href="page-3.asp">3</a></li>
-        <li><a href="page-4.asp">4</a></li>
-        <li><a href="page-5.asp">5</a></li>
-        <li><a href="page-6.asp">6</a></li>
-        <li><a href="page-7.asp">7</a></li>
-        <li><a href="page-8.asp">8</a></li>
-        <li><a href="page-9.asp">9</a></li>
-        <li><a href="page-10.asp">10</a></li>
-        <li><a href="page-11.asp">Next</a></li>
-    </ul>
-</body>
-
-<footer>
-    <div class="footer-all">
-        <ul class="location">
-            <li><p>Jupiter, Solar System</p></li>
-        </ul>
-        <ul class="footer-nav">
-            <li><a href="help.asp">Help</a></li>
-            <li><a href="send-feedback.asp">Send Feedback</a></li>
-            <li><a href="privacy.asp">Privacy</a></li>
-            <li><a href="terms.asp">Terms</a></li>
-        </ul>
-    </div>
-</footer>
-<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+    <footer>
+        <div class="footer-all">
+            <ul class="location">
+                <li><p>Jupiter, Solar System</p></li>
+            </ul>
+            <ul class="footer-nav">
+                <li><a href="help.asp">Help</a></li>
+                <li><a href="send-feedback.asp">Send Feedback</a></li>
+                <li><a href="privacy.asp">Privacy</a></li>
+                <li><a href="terms.asp">Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </html>

@@ -70,13 +70,13 @@ nav.header-search {
     padding-left: 1em;
 }
 
-input[type="text"] {
+input[type="search"] {
     outline: none !important;
     border: 1px solid lightgray;
     border-right: 0px;
     border-radius: 20px 0px 0px 20px;
     width: 48em;
-    height: 3em;
+    height: 3.3em;
 }
 
 .right-side-head{
@@ -84,6 +84,9 @@ input[type="text"] {
 }
 .right-side-head a {
     color: #5f6368;
+    box-sizing: border-box;
+    overflow: visible;
+    padding-top: 30px;
 }
 
 .right-side-head a:hover {
@@ -162,6 +165,8 @@ input[type="text"] {
 .search-links li {
     width: 45em;
     padding-left: 10em;
+    position: relative;
+    line-height: 1.5em;
 }
 
 .search-links a {
@@ -173,6 +178,25 @@ input[type="text"] {
 .search-links a:hover {
     text-decoration: underline;
 }
+table {
+    padding-left: 0.7em;
+    font-size: 16px;
+    width: 38em;
+    color: #202124;
+    cursor: pointer;
+}
+table h2 {
+    cursor: text;
+    font-weight: normal;
+    font-size: 20px;}
+td {
+    border-bottom: 1px solid #dadce0;
+}
+
+tr {
+    height: 2.5em;
+}
+
 .pages {
     display: flex;
     padding-left: 15em;
